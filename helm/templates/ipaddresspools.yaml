@@ -5,4 +5,4 @@ metadata:
   namespace: metallb-system
 spec:
   addresses:
-{{ toYaml .Values.metallb.addresses | indent 4 }}
+{{ toYaml .Values.addresses | indent 4 }}
