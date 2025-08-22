@@ -1,0 +1,14 @@
+apiVersion: v2
+name: metallb-deploy
+type: application
+
+# Follow Semantic Versioning (https://semver.org/)
+version: 1.0.0-0.15.2
+
+# Version of application being deployed
+appVersion: 0.15.2
+
+dependencies:
+  - name: metallb
+    version: 0.15.2
+    repository: https://metallb.github.io/metallb

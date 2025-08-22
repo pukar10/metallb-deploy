@@ -1,0 +1,4 @@
+# Default values, overriden in control-plane-launch values.yaml
+metallb:
+  addresses:
+    - 192.168.1.230-192.168.1.250
