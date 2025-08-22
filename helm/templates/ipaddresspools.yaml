@@ -4,5 +4,4 @@ metadata:
   name: lb-pool
   namespace: metallb-system
 spec:
-  addresses:
-{{ toYaml .Values.addresses | indent 4 }}
+  addresses: {{- toYaml .Values.addresses | indent 4 }}
